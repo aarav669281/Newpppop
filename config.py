@@ -2,13 +2,13 @@ import os
 
 class Config(object):
     # Telegram Bot ka token
-    BOT_TOKEN = "8181526702:AAGXxvYXRnMi6PQJ8KzK-09QqSEYPrze8X4"
+    BOT_TOKEN = "7503125213:AAFsRIHoAwlQ3R-2_dh05vma4AlJGYknEKg"
     # Telegram API ki ID
     API_ID = 21705536
     # Telegram API ki hash key
     API_HASH = "c5bb241f6e3ecf33fe68a444e288de2d"
     # Admin users ki IDs (comma se separate ki hui)
-    ADMIN = '5957208798'.split(',')
+    ADMIN = '7507228967'.split(',')
     # Admin IDs ko integer list mein convert karna
     ADMIN_ID = [int(id) for id in ADMIN]
     # MongoDB database ka URL
